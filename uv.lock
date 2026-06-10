@@ -19,7 +19,7 @@ dependencies = [
 requires-dist = [
     { name = "einops", specifier = "==0.3.0" },
     { name = "numpy", specifier = "==1.22.0" },
-    { name = "pandas", specifier = "==1.5.3" },
+    { name = "pandas", specifier = "==1.0.1" },
     { name = "scikit-learn", specifier = "==0.24.1" },
     { name = "scipy", specifier = "==1.6.1" },
     { name = "torch", specifier = "==1.9.0" },
@@ -61,22 +61,19 @@ wheels = [
 
 [[package]]
 name = "pandas"
-version = "1.5.3"
+version = "1.0.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "numpy" },
     { name = "python-dateutil" },
     { name = "pytz" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/74/ee/146cab1ff6d575b54ace8a6a5994048380dc94879b0125b25e62edcb9e52/pandas-1.5.3.tar.gz", hash = "sha256:74a3fd7e5a7ec052f183273dc7b0acd3a863edf7520f5d3a1765c04ffdb3b0b1", size = 5203060, upload-time = "2023-01-19T08:31:39.615Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/02/c3/e8c56de02d6c52f8541feca2fd77117e8ae4956f7b3e5cdbed726624039b/pandas-1.0.1.tar.gz", hash = "sha256:3c07765308f091d81b6735d4f2242bb43c332cc3461cae60543df6b10967fe27", size = 4852368, upload-time = "2020-02-05T20:55:26.601Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/26/c1/469f5d7863a9901d92b795d9fc5c7c4acccd7df62b13367c7fac0d499c3b/pandas-1.5.3-cp38-cp38-macosx_10_9_universal2.whl", hash = "sha256:14e45300521902689a81f3f41386dc86f19b8ba8dd5ac5a3c7010ef8d2932813", size = 18428032, upload-time = "2023-01-19T08:30:17.764Z" },
-    { url = "https://files.pythonhosted.org/packages/2b/63/fa344006a41dd696720328af0f1f914f530e9eca2f794607f6af9158897d/pandas-1.5.3-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:9842b6f4b8479e41968eced654487258ed81df7d1c9b7b870ceea24ed9459b31", size = 11896315, upload-time = "2023-01-19T08:30:26.531Z" },
-    { url = "https://files.pythonhosted.org/packages/0e/1d/f964977eea9ed72d5f1c53af56038aca2ce781a0cc8bce8aeb33da039ca1/pandas-1.5.3-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:26d9c71772c7afb9d5046e6e9cf42d83dd147b5cf5bcb9d97252077118543792", size = 10825052, upload-time = "2023-01-19T08:30:33.297Z" },
-    { url = "https://files.pythonhosted.org/packages/b2/87/e0a0e9a0ab9ede47192aa40887b7e31d048c98326a41d6b57c658d1a809d/pandas-1.5.3-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:5fbcb19d6fceb9e946b3e23258757c7b225ba450990d9ed63ccceeb8cae609f7", size = 11465500, upload-time = "2023-01-19T08:30:39.403Z" },
-    { url = "https://files.pythonhosted.org/packages/54/a0/c62d63c5c69be9aae07836e4d7e25e7a6f5590be3d8f2d53f43eeec5c475/pandas-1.5.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:565fa34a5434d38e9d250af3c12ff931abaf88050551d9fbcdfafca50d62babf", size = 12189084, upload-time = "2023-01-19T08:30:46.315Z" },
-    { url = "https://files.pythonhosted.org/packages/bc/bb/359b304fb2d9a97c7344b6ceb585dc22fff864e4f3f1d1511166cd84865e/pandas-1.5.3-cp38-cp38-win32.whl", hash = "sha256:87bd9c03da1ac870a6d2c8902a0e1fd4267ca00f13bc494c9e5a9020920e1d51", size = 9753053, upload-time = "2023-01-19T08:30:52.048Z" },
-    { url = "https://files.pythonhosted.org/packages/ca/4e/d18db7d5ff9d28264cd2a7e2499b8701108f0e6c698e382cfd5d20685c21/pandas-1.5.3-cp38-cp38-win_amd64.whl", hash = "sha256:41179ce559943d83a9b4bbacb736b04c928b095b5f25dd2b7389eda08f46f373", size = 10959031, upload-time = "2023-01-19T08:30:57.087Z" },
+    { url = "https://files.pythonhosted.org/packages/a4/67/5304587c84dc0eb4ba05a6405de5e9b539b20ffe1eb05410fb5ded512527/pandas-1.0.1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:7f9a509f6f11fa8b9313002ebdf6f690a7aa1dd91efd95d90185371a0d68220e", size = 9907559, upload-time = "2020-02-05T20:54:17.191Z" },
+    { url = "https://files.pythonhosted.org/packages/d2/91/a1b72f7041c5ee2d307cb6dd57fe5c6ed7bf54e248d59e41b31aceff00e2/pandas-1.0.1-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:942b5d04762feb0e55b2ad97ce2b254a0ffdd344b56493b04a627266e24f2d82", size = 9949053, upload-time = "2020-02-05T20:54:38.29Z" },
+    { url = "https://files.pythonhosted.org/packages/d9/02/efd55383399646d0bc3bf0078130ae08f2890dd68276e3f4d7a4e94539a4/pandas-1.0.1-cp38-cp38-win32.whl", hash = "sha256:7d77034e402165b947f43050a8a415aa3205abfed38d127ea66e57a2b7b5a9e0", size = 7839046, upload-time = "2020-02-05T20:54:55.925Z" },
+    { url = "https://files.pythonhosted.org/packages/68/db/4a6f569775c1dd762d3cbb0505ba0cd93a96db5f34e9fc761ff2a76daefa/pandas-1.0.1-cp38-cp38-win_amd64.whl", hash = "sha256:5036d4009012a44aa3e50173e482b664c1fae36decd277c49e453463798eca4e", size = 9153803, upload-time = "2020-02-05T20:55:14.378Z" },
 ]
 
 [[package]]
