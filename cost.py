@@ -317,8 +317,8 @@ class CoST:
             
             cum_loss /= n_epoch_iters
             loss_log.append(cum_loss)
-            if verbose:
-                print(f"Epoch #{self.n_epochs}: loss={cum_loss}")
+            # if verbose:
+            #     print(f"Epoch #{self.n_epochs}: loss={cum_loss}")
             self.n_epochs += 1
 
             if self.after_epoch_callback is not None:
