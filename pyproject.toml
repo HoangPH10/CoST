@@ -1,0 +1,14 @@
+[project]
+name = "cost"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8,<3.9"
+dependencies = [
+  "scipy==1.6.1",
+  "torch==1.9.0",
+  "numpy==1.22.0",
+  "pandas==1.0.1",
+  "scikit_learn==0.24.1",
+  "einops==0.3.0",
+]
