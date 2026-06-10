@@ -3,6 +3,7 @@ import os
 import time
 import datetime
 import math
+import json
 import numpy as np
 import tasks
 import datautils
@@ -110,5 +111,7 @@ if __name__ == '__main__':
         print('Evaluation result:', eval_res)
         pkl_save(f'{run_dir}/eval_res.pkl', eval_res)
         pkl_save(f'{run_dir}/out.pkl', out)
+        with open(f'{run_dir}/eval_res.json', 'w') as f:
+            json.dump(eval_res, f, indent=4)
 
     print("Finished.")
